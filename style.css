@@ -1,3 +1,5 @@
+/* || General CSS  */
+
 body {
   margin: 0;
 }
@@ -23,29 +25,6 @@ h2 {
   line-height: normal;
   text-transform: uppercase;
 }
-.first_statement_heading {
-  margin-top: 12px;
-  margin-bottom: 0;
-}
-
-.first_statement {
-  width: 568px;
-}
-.margin_left {
-  margin-left: 55px;
-}
-.painting {
-  width: 568px;
-}
-.painting_container {
-  width: 568px;
-  height: 446px;
-  overflow-y: hidden;
-  background-image: url(./images/painting.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 ol, li {
   padding-left: 15px;
   color: #155EEF;
@@ -54,16 +33,6 @@ ol, li {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-}
-.first_statement_text {
-  color: #414651;
-  text-align: center;
-  font-family: Lato;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  margin-top: 16px;
 }
 button {
   color: #CEA201;
@@ -79,11 +48,54 @@ button {
   display: inline-block;
   margin: 32px 0px 0px 55px;
 }
+a {
+  color: #00D4BC;
+  font-family: Lato;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: right;
+  display: block;
+}
+
+/* || ID Selectors */
+
+#special_one {
+  margin-top: 16px;
+}
+
+/* || Class Selector */
+
+.first_statement_heading {
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+.first_statement {
+  width: 568px;
+}
+.painting {
+  width: 568px;
+}
+.painting_container {
+  width: 568px;
+  height: 446px;
+  overflow-y: hidden;
+  background-image: url(./images/painting.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.first_statement_text {
+  color: #414651;
+  text-align: center;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 16px;
+}
 .first_statement_mother {
   margin-top: 37px;
-}
-.padding {
-  padding: 20px;
 }
 .second_statement {
   margin-top: 74px;
@@ -127,32 +139,11 @@ button {
   height: 396px;
   margin-top: 24px;
 }
-.dots {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  background-color: #000;
-  border-radius: 50%;
-}
 .article_options {
   display: inline;
   color: #C27512;
   font-family: Lato;
   font-size: 16px;
-}
-.article_divs {
-  margin-top: 8px;
-}
-#special_one {
-  margin-top: 16px;
-}
-a {
-  color: #00D4BC;
-  font-family: Lato;
-  font-size: 24px;
-  line-height: 32px;
-  text-align: right;
-  display: block;
 }
 .article_heading {
   color: #414651;
@@ -161,4 +152,23 @@ a {
   font-weight: 800;
   line-height: 24px;
   margin: 0;
+}
+
+/* || Reusable CSS Classes*/
+
+.article_divs {
+  margin-top: 8px;
+}
+.dots {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #000;
+  border-radius: 50%;
+}
+.padding {
+  padding: 20px;
+}
+.margin_left {
+  margin-left: 55px;
 }
